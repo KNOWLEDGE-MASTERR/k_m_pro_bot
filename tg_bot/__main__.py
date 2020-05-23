@@ -20,17 +20,13 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Heya {}, my name is {}! if you have any questions about how to use me please give me /help... 
 
-I am a group manager bot made by  [TELEGRAM KING](tg://user?id=991867857) !!!
+I am a group manager bot made by [TELEGRAM KING](tg://user?id=991867857) !!!
 
-** Professionally Made By [TELEGRAM KING](tg://user?id=991867857) Officially Made For [DEV ADMIN](tg://user?id=944484079) To Manage His Groups [DEV GROUPS](t.me/dev_groups)❤️❤️**
-
-
-
+** Professionally Made By [TELEGRAM KING](tg://user?id=991867857) & Officially Made For [DEV ADMIN](tg://user?id=944484079) To Manage His Groups [DEV GROUPS](t.me/dev_groups)❤️❤️ **
 
 For more commands click /help...
 
-
-
+𝕄𝔸𝔻𝔼 𝕎𝕋ℍ 𝕃𝕆𝕍𝔼 𝔹𝕐 [𝓣𝓔𝓛𝓔𝓖𝓡𝓐𝓜 𝓚𝓘𝓝𝓖](t.me/telegrmking)
 """
 
 HELP_STRINGS = """
@@ -50,10 +46,9 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
+It took lots of work for [my creator](t.me/telegrmking) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+(see his bio!). He's just a professional coder, so every little helps!"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -145,7 +140,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN)
     else:
-        update.effective_message.reply_text("waked up😏😏😏")
+        update.effective_message.reply_text("Am still waking up :<")
 
 
 # for test purposes
