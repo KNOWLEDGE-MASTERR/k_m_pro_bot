@@ -18,18 +18,18 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+Heya {}, my name is {}! if you have any questions about how to use me please give me /help... 
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
+I am a group manager bot made by  [TELEGRAM KING](tg://user?id=991867857) !!!
 
-My future updates will be put into This Channel - @MarieChechi & My Support Group @InFoTelGroup.
+** Professionally Made By [TELEGRAM KING](tg://user?id=991867857) Officially Made For [DEV ADMIN](tg://user?id=944484079) To Manage His Groups [DEV GROUPS](t.me/dev_groups)❤️❤️**
 
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/TGExplore/Marie-2.0-English),
-you can create clone same like me..
+
+
 
 For more commands click /help...
 
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
+
 
 """
 
